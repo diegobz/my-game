@@ -1,0 +1,13 @@
+
+Transifex Integration
+=====================
+
+Setup
+
+ tx init
+ tx set --auto-local -t STRINGS -r my-game.strings 'locale/<lang>/Localizable.strings' --source-lang=en --execute
+
+Continuous integration
+
+ tx push -s
+ tx pull -a --minimum=pec=100
