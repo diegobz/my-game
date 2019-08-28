@@ -2,3 +2,4 @@
 "game-desc" = "This is a game.";
 "game-load-label" = "Loading...";
 "game-play" = "Press Start to begin your journey";
+"game-over" = "Game over";
